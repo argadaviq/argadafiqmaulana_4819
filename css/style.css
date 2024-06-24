@@ -1,0 +1,459 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Flamenco&display=swap");
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  font-size: 16px;
+  font-family: "Nunito Sans", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.wrapper {
+  width: 1024px;
+  margin: auto;
+  padding: 20px 0px 20px 0px;
+}
+
+/*
+*Menu
+*/
+nav {
+  background-color: #1b262c;
+  color: #fff;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  z-index: 100;
+  font-family: "Kanit", sans-serif;
+}
+nav > .wrapper {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.2rem;
+  align-items: center;
+}
+
+.menu {
+  width: 50%;
+}
+
+.menu > ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  justify-content: space-between;
+}
+
+.menu > ul > li > a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+}
+
+.menu > ul > li > a:hover {
+  text-decoration: underline;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-size: 25px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  font-family: "Kanit", sans-serif;
+}
+
+.logo > span {
+  color: #ffce10;
+  font-family: "Fugaz One", sans-serif;
+}
+
+/*
+*Hero/
+Jumbotron 
+*/
+header {
+  background: url("../image/bg_header.jpeg");
+  height: 100vh;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  font-family: "Kanit", sans-serif;
+  letter-spacing: 5px;
+  text-shadow: 0 0 4px #000;
+}
+.header-opacity {
+  background-color: #1b262c;
+  width: 100%;
+  height: 100%;
+  opacity: 0.7;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.header-jumbotron {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.header-jumbotron > h4 {
+  color: #ffce10;
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+}
+.header-jumbotron > h5 {
+  color: #fff;
+  margin: 0px;
+  padding: 5px;
+  font-size: 3.5rem;
+  line-height: 4rem;
+  text-transform: uppercase;
+}
+
+.header-jumbotron > p {
+  padding: 5px;
+  margin: 0px 5px 20px 5px;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+  text-shadow: none;
+}
+
+.button {
+  background-color: #ffce10;
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+  font-family: "Kanit", sans-serif;
+}
+.button-xl:hover {
+  background: #1b262c;
+  text-decoration: none;
+  color: #fff;
+}
+.button-xl {
+  font-size: 1.4rem;
+  padding: 20px;
+}
+.buttonvid {
+  text-decoration: none;
+  padding: 5px 12px 5px 15px;
+  margin-top: 40px;
+  font-size: 19px;
+  background-color: dodgerblue;
+  border: 1px solid transparent;
+  border-radius: 9px;
+  outline: none;
+  cursor: pointer;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+.buttonvid:hover {
+  background-color: #1b262c;
+  color: dodgerblue;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+  border: 1px solid dodgerblue;
+}
+
+/*
+*Me
+*/
+#me {
+  background-color: #0f4c75;
+  color: #fff;
+  font-family: "Kanit", sans-serif;
+}
+
+#me > .wrapper {
+  padding: 50px;
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#me > .wrapper > div {
+  text-align: center;
+}
+
+#me > .wrapper > div > i {
+  margin: 0px;
+  padding: 0px;
+  font-size: 1rem;
+}
+
+#me > .wrapper > div > p {
+  font-size: 2rem;
+  margin: 0px;
+  padding: 0px;
+}
+
+#me > .wrapper > div > p > i {
+  margin-right: 10px;
+  font-size: 2.5rem;
+}
+
+#me > .wrapper > div > small {
+  font-size: 1.3rem;
+}
+
+/*
+ *Tugas AK
+*/
+#tugas-ak {
+  background-color: #3282b8;
+  color: #fff;
+}
+
+#tugas-ak > .wrapper {
+  padding: 50px 0px 50px 0px;
+}
+
+#tugas-ak > .wrapper > h4 {
+  text-align: center;
+  font-size: 2.8rem;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Kanit", sans-serif;
+  color: #fff;
+}
+
+#tugas-ak > .wrapper > p {
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  font-size: 1.1rem;
+}
+
+.item {
+  margin-top: 40px;
+  grid-template-columns: 50%;
+  grid-gap: 100px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.button2 {
+  background-color: #e0ee17f5;
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+  font-family: "Kanit", sans-serif;
+}
+.button-tugas:hover {
+  background: #525c6f;
+  text-decoration: none;
+  color: #fff;
+}
+
+/*
+*Tentang Saya 
+*/
+#tentang-saya {
+  background-color: #0f4c75;
+  color: #333;
+}
+
+#tentang-saya > .wrapper {
+  padding: 50px 0px 50px 0px;
+}
+
+#tentang-saya > .wrapper > h4 {
+  text-align: center;
+  font-size: 2.8rem;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Kanit", sans-serif;
+  color: #fff;
+}
+#tentang-saya > .wrapper > h4 > span {
+  color: #525c6f;
+}
+
+#tentang-saya > .wrapper > p {
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 50px;
+  color: #fff;
+}
+
+#tentang-saya > .wrapper > div {
+  display: flex;
+  width: 70%;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#tentang-saya > .wrapper > div > .foto {
+  width: 44%;
+}
+
+#tentang-saya > .wrapper > div > .foto > img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+#tentang-saya > .wrapper > div > .desc {
+  width: 70%;
+  padding: 20px;
+  margin: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+#tentang-saya > .wrapper > div > .desc > p {
+  margin: 10px 0px 10px 0px;
+  font-size: 1.1rem;
+  line-height: 2.2rem;
+}
+
+#tentang-saya > .wrapper > div > .desc > .social {
+  display: flex;
+  width: 30%;
+  justify-content: space-between;
+  font-size: 1.3rem;
+}
+
+#tentang-saya > .wrapper > div > .desc > .social > a {
+  color: #0f4c75;
+}
+
+#copyright {
+  text-align: center;
+  width: 100%;
+  padding: 50px 0px 50px 0px;
+  background: #1b262c;
+  color: #fff;
+}
+
+/* Hamburger Menu */
+button.hamburger-menu {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: none;
+}
+button.hamburger-menu > i {
+  color: #fff;
+  font-size: 1.5rem;
+}
+button.hamburger-menu > i.icon-close {
+  display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+  .wrapper {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 900px) {
+  #me > .wrapper > div > p > i {
+    font-size: 1.5rem;
+  }
+  #me > .wrapper > div > p {
+    font-size: 1rem;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  #me > .wrapper > div > small {
+    font-size: 1rem;
+  }
+  .grid {
+    grid-template-columns: 45% 45%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .menu {
+    width: 70%;
+  }
+  .header-jumbotron > h4 {
+    font-size: 1.5rem;
+  }
+  .header-jumbotron > h5 {
+    font-size: 2rem;
+    line-height: 2.2rem;
+  }
+  .header-jumbotron > p {
+    font-size: 0.8rem;
+  }
+  .button {
+    padding: 5px;
+  }
+  .button-xl {
+    font-size: 1.2rem;
+    padding: 10px;
+  }
+  #me > .wrapper > div > p {
+    font-size: 1rem;
+    margin: 0px;
+  }
+  #me > .wrapper > div > p > i {
+    font-size: 1.2rem;
+  }
+  #tentang-saya > .wrapper > div > .foto > img {
+    max-width: 100%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .grid {
+    grid-template-columns: 40% 40%;
+    text-align: center;
+    grid-gap: 20%;
+  }
+  #tentang-saya > .wrapper > div {
+    width: 100%;
+    flex-direction: column;
+  }
+  #tentang-saya > .wrapper > div > .foto {
+    width: 50%;
+  }
+  #tentang-saya > .wrapper > div > .foto > img {
+    max-width: 100%;
+  }
+  #tentang-saya > .wrapper > div > .desc {
+    width: 70%;
+    padding: 20px;
+    margin: 10px;
+  }
+  button.hamburger-menu {
+    display: inline;
+  }
+  .menu {
+    display: none;
+  }
+  .tampil {
+    display: inline;
+  }
+  .tampil > ul {
+    flex-direction: column;
+    background-color: #1b262c;
+    width: 100%;
+    position: fixed;
+    top: 85px;
+    left: 0;
+  }
+  .tampil > ul > li {
+    padding: 10px 20px 10px 20px;
+  }
+}
